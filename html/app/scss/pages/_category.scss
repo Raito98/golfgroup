@@ -1,0 +1,114 @@
+.category-header {
+    background: url(../images/cover-cat.jpg);
+    color: $light;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+.category-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+    font-size: 26px;
+
+
+    &:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        width: 80px;
+        height: 20px;
+        background: url(../images/icon-line-white.svg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: -40px;
+    }
+}
+
+.featured-post-cat {
+    .post {
+        @media(max-width: 575px) {
+            margin-bottom: 15px;
+        }
+    }
+
+    .post-thumbnail {
+        margin-bottom: 10px;
+    }
+
+    .big-post {
+        .post-title {
+            font-size: 24px;
+            line-height: 1.2;
+        }
+    }
+}
+
+.list-post-cat {
+    .post {
+        border-bottom: 1px dashed $border_gray;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        &:last-child {
+            padding-bottom: 0;
+            border: none;
+        }
+
+        &:after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+    }
+
+    .post {
+        &-title {
+            font-size: 19px;
+            line-height: 1.4;
+            font-weight: 700;
+
+            @media (max-width: 575px) {
+                font-size: 15px;
+
+            }
+
+            a {
+                color: #333;
+
+                &:hover {
+                    color: $brand;
+                }
+            }
+        }
+
+        .post-thumbnail {
+            margin-bottom: 10px;
+            width: 360px;
+            height: 218px;
+            float: left;
+            margin-right: 10px;
+
+            @media (max-width: 575px) {
+                width: 150px;
+                height: 95px;
+            }
+        }
+
+        &-excerpt {
+            p {
+                margin-bottom: 0;
+            }
+
+            @media (max-width: 575px) {
+                display: none;
+            }
+        }
+    }
+}

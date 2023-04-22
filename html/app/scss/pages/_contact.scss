@@ -1,0 +1,52 @@
+.contact-item {
+    .addr {
+        font-weight: 700;
+        margin-top: 15px;
+    }
+
+    p {
+        i {
+            margin-right: 5px;
+        }
+    }
+}
+
+.contact-container {
+    .heading-title {
+        color: $brand;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+        position: relative;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+
+        &:before {
+            content: '';
+            width: 100px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            border-bottom: 2px solid $gray;
+        }
+
+        &:after {
+            content: '';
+            width: 50px;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            border-bottom: 2px solid $brand;
+        }
+    }
+
+}
+
+.contact-form {
+    .btn-submit {
+        width: 100%;
+        margin-left: 0;
+        background-color: $brand;
+        color: $light;
+    }
+}

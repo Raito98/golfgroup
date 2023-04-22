@@ -1,0 +1,39 @@
+.showroom {
+    margin-bottom: 30px;
+
+    &-image {
+        display: block;
+        margin-bottom: 15px;
+
+        >a {
+            display: block;
+
+        }
+
+
+    }
+
+    &-header {
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: $brand;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+
+    .addr {
+        i {
+            margin-right: 5px;
+        }
+
+        &-map {
+            a {
+                font-weight: 700;
+                color: #007bff;
+            }
+        }
+    }
+}

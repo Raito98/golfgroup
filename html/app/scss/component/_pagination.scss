@@ -1,0 +1,31 @@
+.pagination-nav {
+    display: flex;
+    justify-content: center;
+
+    .pagination {
+        margin-bottom: 10px;
+    }
+
+    span,
+    a {
+        padding: 5px 10px;
+        border-radius: 4px;
+        background-color: $gray;
+        margin: 5px;
+        font-weight: 700;
+        color: $light;
+        border: 1px solid $gray;
+
+        &:hover {
+            color: $light;
+            background-color: $brand;
+            border-color: $brand;
+        }
+    }
+
+    span {
+        background-color: $light;
+        border: 1px solid $brand;
+        color: $brand;
+    }
+}

@@ -1,0 +1,520 @@
+.brand-logo {
+    display: block;
+    width: 216px;
+    height: 55px;
+    background: url(../images/logo/LogoGolfGroup.svg) no-repeat;
+    background-size: 216px 55px;
+}
+
+.top-header-group {
+    background: #333;
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 8px 0;
+    line-height: 20px;
+
+    .list-member {
+        display: -ms-flexbox;
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li {
+            padding-left: 18px;
+            position: relative;
+            background: url("../images/favicon-white.png") no-repeat 0 4px;
+            background-size: 14px;
+
+            &:not(:last-child) {
+                margin-right: 25px;
+            }
+        }
+    }
+}
+
+.top-header {
+    padding: 10px 0;
+
+    .btn-hotline {
+        color: $light;
+        font-weight: 700;
+        border-radius: 50px;
+        padding: 4px 18px;
+        color: $brand;
+        border: 1px solid $brand;
+        font-size: 16px;
+        display: -ms-flexbox;
+        display: flex;
+        align-items: center;
+        -webkit-align-items: center;
+
+        .icon {
+            font-size: 20px;
+            margin-right: 5px;
+        }
+    }
+
+    .mini-cart {
+        margin-left: 15px;
+        width: 35px;
+        height: 35px;
+        background-color: $brand;
+        display: inline-block;
+        border-radius: 40px;
+        position: relative;
+        line-height: 35px;
+        text-align: center;
+
+        path {
+            fill: #fff;
+        }
+
+        .number-item {
+            color: #fff;
+            width: 15px;
+            height: 15px;
+            position: absolute;
+            top: -5px;
+            right: -1px;
+            background-color: $dark;
+            text-align: center;
+            line-height: 12px;
+            font-size: 11px;
+            border-radius: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        @media(max-width: 575px) {
+            margin-left: 0;
+        }
+    }
+
+    .mini-shop {
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+        color: #333;
+
+        .icon-shop {
+            border: 1px solid $brand;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 40px;
+            height: 35px;
+            width: 35px;
+            margin-right: 5px;
+        }
+
+        @media(max-width: 575px) {
+            display: none;
+        }
+    }
+}
+
+.search-form {
+    .form-group {
+        position: relative;
+        margin-bottom: 5px;
+    }
+
+    .form-control {
+        border-radius: 40px;
+        font-size: 14px;
+        border: none;
+        background-color: $bg_gray;
+        min-height: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: $gray;
+
+        &:focus {
+            color: $dark;
+        }
+    }
+
+    .btn-search {
+        background: none;
+        box-shadow: none;
+        outline: none;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+.header-form {
+    .suggest-key {
+        padding-left: 15px;
+
+        a {
+            color: $gray;
+            display: inline-block;
+            margin: 0 2px;
+
+            &:hover {
+                color: $brand;
+            }
+        }
+    }
+}
+
+.primary-nav {
+    background-color: $brand;
+    padding: 0;
+
+    .main-menu {
+        a {
+            color: $light;
+            display: block;
+
+            &:hover {
+                background-color: #D4310D;
+            }
+        }
+    }
+
+    >li {
+        >a {
+            text-transform: uppercase;
+        }
+    }
+
+    .main-menu {
+        &>.menu-item {
+            position: relative;
+
+            >a {
+                font-weight: 700;
+                padding: 15px;
+                transition: all 0.3s;
+
+                @media(max-width: 575px) {
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
+
+    .main-menu {
+        >li {
+            >a {
+                position: relative;
+                text-transform: uppercase;
+
+                &:before {
+                    content: '';
+                    width: 30px;
+                    height: 25px;
+                    background-repeat: no-repeat;
+                    background-size: auto 25px;
+                    background-size: bottom center;
+                    position: absolute;
+                    top: auto;
+                    bottom: 15px;
+                    left: 10px;
+
+                    @media(max-width: 575px) {
+                        bottom: 10px;
+                    }
+                }
+
+            }
+
+            &.icon-home {
+                >a {
+                    &:before {
+                        background-image: url(../images/icon-menu/icon-home-2.svg);
+                    }
+                }
+
+            }
+
+            &.icon-1 {
+                >a {
+                    &:before {
+                        background-image: url(../images/icon-menu/icon-1.svg);
+                    }
+                }
+
+            }
+
+            &.icon-1 {
+                >a {
+                    &:before {
+                        background-image: url(../images/icon-menu/icon-1.svg);
+                    }
+                }
+
+            }
+
+            &.icon-2 {
+                >a {
+                    &:before {
+                        background-image: url(../images/icon-menu/icon-2.svg);
+                    }
+                }
+
+            }
+
+            &.icon-3 {
+                >a {
+                    &:before {
+                        background-image: url(../images/icon-menu/icon-3.svg);
+                    }
+                }
+
+            }
+
+            &.icon-4 {
+                >a {
+                    &:before {
+                        background-image: url(../images/icon-menu/icon-4.svg);
+                    }
+                }
+
+            }
+
+            &.icon-5 {
+                >a {
+                    &:before {
+                        background-image: url(../images/icon-menu/icon-5.svg);
+                    }
+                }
+
+            }
+
+            &.icon-6 {
+                >a {
+                    &:before {
+                        background-image: url(../images/icon-menu/icon-6.svg);
+                    }
+                }
+
+            }
+        }
+
+    }
+
+    .main-menu {
+        >.mega {
+            position: static;
+        }
+    }
+
+    .menu-toggler {
+        position: relative;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .icon-menu {
+        height: 3px;
+        width: 30px;
+        background-color: $light;
+        border-radius: 4px;
+        display: inline-block;
+        position: relative;
+        transition: all 0.3s;
+
+        &:before {
+            content: '';
+            border-radius: 4px;
+            width: 100%;
+            height: 3px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $light;
+            margin-top: -9px;
+            transition: all 0.3s;
+        }
+
+        &:after {
+            content: '';
+            border-radius: 4px;
+            width: 100%;
+            height: 3px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: $light;
+            margin-top: 9px;
+            transition: all 0.3s;
+        }
+    }
+
+    .menu-toggler {
+        &.show {
+            span {
+                background: transparent;
+            }
+
+            span:before {
+                border-radius: 0px;
+                margin-left: -17px;
+                transform: rotate(135deg);
+            }
+
+            span:after {
+                border-radius: 0px;
+                margin-right: -10px;
+                transform: rotate(-45deg);
+            }
+
+            span {
+
+                &:before,
+                &:after {
+                    top: 50%;
+                    left: 50%;
+                    width: 15px;
+                    height: 15px;
+                    margin-top: -10px;
+                    border-top: 3px solid #fff;
+                    border-left: 3px solid #fff;
+                    background: 0 0;
+                }
+            }
+        }
+    }
+
+    .menu-side-slide {
+        display: none;
+    }
+}
+
+.sub-nav {
+    background-color: #F2F2F2;
+
+
+    li {
+        font-weight: 700;
+
+        a {
+            display: block;
+            padding: 0px 15px;
+            color: $dark;
+
+            &:hover {
+                color: $brand;
+            }
+        }
+    }
+}
+
+.about-nav {
+    display: none;
+    position: relative;
+    bottom: 0;
+
+    &.show {
+        display: block;
+
+
+    }
+
+    .container {
+        display: flex;
+        position: relative;
+        justify-content: flex-end;
+    }
+
+}
+
+.about-menu {
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    list-style: none;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, .05);
+    padding: 0px 25px;
+    top: -35px;
+
+    li {
+        padding: 0;
+
+    }
+
+    a {
+        font-size: 15px;
+        font-weight: 700;
+        display: block;
+        padding: 10px 0px;
+        border-bottom: 1px dashed $bg_gray;
+        color: $dark;
+
+        &:hover {
+            color: $brand;
+        }
+    }
+
+    li:last-child {
+        a {
+            border: none
+        }
+    }
+}
+
+@media(max-width:575px) {
+    .top-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 12;
+        width: 100%;
+        padding: 0px;
+        align-items: center;
+        background-color: $brand;
+        -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+
+        .row {
+            align-items: center;
+        }
+
+        .mini-cart {
+            background-color: $light;
+
+            path {
+                fill: $brand;
+            }
+        }
+    }
+
+    .header-logo {
+        margin: 5px 0;
+    }
+
+    .brand-logo {
+        background-image: url(../images/LogoGolfGroup.svg);
+        width: 196px;
+        height: 50px;
+        background-size: 100% auto;
+        margin: 0 auto;
+    }
+
+    .header-action {
+        .btn-hotline {
+            display: none;
+        }
+    }
+
+}
+
+@media(max-width:575px) {
+
+    .top-header {
+        &.none-sticky {
+            top: -100px;
+        }
+
+        &.sticky {
+            top: 0;
+        }
+    }
+}

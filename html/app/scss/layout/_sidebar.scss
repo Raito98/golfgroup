@@ -1,0 +1,115 @@
+ .sidebar-tax {
+     border-right: 1px solid $border_gray;
+ }
+
+ .product-type-cat {
+     justify-content: space-between;
+     margin-bottom: 15px;
+
+     .btn {
+         font-weight: 700;
+         text-transform: uppercase;
+         padding: 3px 20px;
+         font-size: 13px;
+         border: 1px solid $border_gray;
+         color: $gray;
+
+         &:hover {
+             color: $light;
+             background-color: $brand;
+         }
+     }
+
+     .like-new {
+         background-color: $brand;
+         color: #fff;
+         border-color: $brand;
+     }
+ }
+
+ .widget-attr {
+     margin-bottom: 30px;
+     padding-bottom: 15px;
+     margin-bottom: 15px;
+     border-bottom: 1px solid $border_gray;
+
+     &:last-child {
+         border: none;
+     }
+
+     .widget-title {
+         text-transform: uppercase;
+         font-weight: 700;
+         font-size: 15px;
+         color: $brand;
+         margin-bottom: 15px;
+     }
+
+     .list-attr {
+         margin-bottom: 0;
+         list-style: none;
+         padding-left: 2px;
+     }
+
+     li {
+         margin-bottom: 12px;
+         font-weight: 700;
+
+         &:last-child {
+             margin-bottom: 0;
+         }
+     }
+ }
+
+ .widget-sticky {
+     position: sticky;
+     top: 15px;
+     z-index: 1;
+ }
+
+ @media(max-width:575px) {
+     .wrap-fillter {
+         border-top: 1px solid $border_gray;
+         position: absolute;
+         width: 100%;
+         left: 0;
+         top: 140px;
+         background-color: $light;
+         z-index: 2;
+         padding: 15px;
+         overflow-y: auto;
+         padding-bottom: 15px;
+         display: none;
+         visibility: hidden;
+         border-bottom: 1px solid $border_gray;
+
+
+
+         &.show {
+             visibility: visible;
+             display: block;
+         }
+     }
+ }
+
+ .sidebar-cat {
+     .widget {
+         margin-bottom: 15px;
+
+         &-title {
+             background-color: $brand;
+             padding: 10px 15px;
+             color: $light;
+             text-transform: uppercase;
+             font-weight: 700;
+             border-top: 2px solid #e02800;
+             margin-bottom: 15px;
+         }
+     }
+ }
+
+ .widget-banner {
+     img {
+         width: 100%;
+     }
+ }

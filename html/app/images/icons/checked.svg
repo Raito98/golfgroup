@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="74.939" height="74.939" viewBox="0 0 74.939 74.939">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="74.939" height="74.939" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="checked" clip-path="url(#clip-path)">
+    <g id="checked-2" data-name="checked" transform="translate(0)">
+      <g id="Group_898" data-name="Group 898" transform="translate(18.063 9.371)">
+        <g id="Group_897" data-name="Group 897">
+          <path id="Path_1218" data-name="Path 1218" d="M176.311,65.153a2.81,2.81,0,0,0-3.975,0L138.614,98.782,126.447,85.567a2.811,2.811,0,1,0-4.136,3.808l14.149,15.366a2.808,2.808,0,0,0,2.008.906h.06a2.814,2.814,0,0,0,1.985-.82l35.794-35.7A2.811,2.811,0,0,0,176.311,65.153Z" transform="translate(-121.568 -64.327)" fill="#fff600"/>
+        </g>
+      </g>
+      <g id="Group_900" data-name="Group 900">
+        <g id="Group_899" data-name="Group 899">
+          <path id="Path_1219" data-name="Path 1219" d="M72.115,34.645a2.824,2.824,0,0,0-2.824,2.824A31.821,31.821,0,1,1,37.47,5.649,2.824,2.824,0,1,0,37.47,0a37.47,37.47,0,1,0,37.47,37.47A2.824,2.824,0,0,0,72.115,34.645Z" fill="#fff600"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

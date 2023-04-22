@@ -1,0 +1,25 @@
+.error-404 {
+    img {
+        display: block;
+        margin: 45px auto;
+        max-width: 60%;
+
+        @media(max-width: 575px) {
+            max-width: 100%;
+        }
+    }
+
+    .btn-to-home {
+        background-color: $brand;
+        color: $light;
+        font-weight: 700;
+        margin: 15px auto;
+        width: 180px;
+        border-radius: 40px;
+        display: block;
+
+        &:hover {
+            background-color: $dark;
+        }
+    }
+}

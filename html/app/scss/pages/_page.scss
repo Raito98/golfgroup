@@ -1,0 +1,32 @@
+.top-page-header {
+    background: url(../images/cover-cat.jpg);
+    color: $light;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 30px;
+
+    .page-title {
+        text-transform: uppercase;
+        font-weight: 700;
+        position: relative;
+        font-size: 26px;
+
+
+        &:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            width: 80px;
+            height: 20px;
+            background: url(../images/icon-line-white.svg) no-repeat;
+            background-size: cover;
+            background-position: center;
+            margin-left: -40px;
+        }
+    }
+}

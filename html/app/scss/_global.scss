@@ -1,0 +1,44 @@
+
+@font-face {
+  font-family: 'utmavo';
+  src: url(../fonts/utm/UTMAvo.ttf);
+}
+
+@font-face {
+  font-family: 'utmavobold';
+  src: url(../fonts/utm/UTMAvoBold.ttf);
+}
+
+@font-face {
+  font-family: 'utmavobold_italic';
+  src: url(../fonts/utm/UTMAvoBold_Italic.ttf);
+}
+
+@font-face {
+  font-family: 'utmavo_italic';
+  src: url(../fonts/utm/UTMAvoItalic.ttf);
+}
+body {
+  font-family: 'Roboto', sans-serif, -apple-system, "Segoe UI", "Helvetica Neue";
+  // font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  box-sizing: border-box;
+
+  @media(max-width:575px) {
+    padding-top: 60px;
+  }
+}
+
+a {
+  color: $brand;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

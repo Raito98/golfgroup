@@ -1,0 +1,20 @@
+.list-video-cat {
+    .video {
+
+        margin-bottom: 15px;
+
+        .post-thumbnail {
+            height: 215px;
+
+            @media(max-width: 575px) {
+                height: 95px;
+            }
+        }
+    }
+}
+
+.single-video-title {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}

@@ -1,0 +1,21 @@
+.parner-logo{
+    margin-bottom: 40px;
+    .archive-title{
+        margin-top: 43px;
+        margin-bottom: 30px;
+        justify-content: center;
+        font-family: utmavobold;
+    }
+}
+.parner-logo-item{
+    margin-bottom: 30px;
+    @media(max-width: 575px) {
+        margin-bottom: 20px;
+    }
+}
+.parner-logo-item-right{
+    padding-right: 7px;
+}
+.parner-logo-item-left{
+    padding-left: 7px;
+}
